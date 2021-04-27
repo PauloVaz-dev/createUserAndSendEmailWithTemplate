@@ -28,8 +28,7 @@
 O projeto destina-se ao envio de email e salvando os dados no banco, contudo fiz o uso de alguns dos princípios do SOLID, [S]ingle Responsibility Principle, [L]iskov Substitution Principle e [D]ependency Inversion Principle, para ajudar em alguns desses principios, usei do pacote de injeção de dependências chamado
     <a href="https://github.com/microsoft/tsyringe">
       tsyringe
-    </a>
-    . Ele permite automatizar a injeção de dependências.
+    </a>, permitindo automatizar a injeção das dependências.
 
 ---
 
