@@ -25,7 +25,7 @@
 ## 💻 Sobre o projeto
 
 
-O projeto se destina para envio de email e salvando os dados no banco, contudo uso de alguns dos princípios do SOLID, [S]ingle Responsibility Principle, [L]iskov Substitution Principle e [D]ependency Inversion Principle, para ajudar em alguns desses principios, uso do pacote de injeção de dependências chamado
+O projeto destina-se ao envio de email e salvando os dados no banco, contudo fiz o uso de alguns dos princípios do SOLID, [S]ingle Responsibility Principle, [L]iskov Substitution Principle e [D]ependency Inversion Principle, para ajudar em alguns desses principios, usei do pacote de injeção de dependências chamado
     <a href="https://github.com/microsoft/tsyringe">
       tsyringe
     </a>
@@ -55,10 +55,10 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/JonasCastro/dependency-injection-tsyringe.git
+$ git clone https://github.com/PauloVaz-dev/createUserAndSendEmailWithTemplate.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd dependency-injection-tsyringe
+$ cd createUserAndSendEmailWithTemplate
 
 ```
 
@@ -72,12 +72,31 @@ EMAIL_PORT=port
 EMAIL_USER=email
 EMAIL_PASSWORD=password
 
+```
+
+#### 🎲 Rodando o Front-end
+
+```bash
+# Acesse o diretório
+$ cd fronteand
+
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação em modo de desenvolvimento
+$ yarn dev
+
+# O front-end inciará na porta:3000
+
+# Abra seu navegado e digite http://localhost:3000
 
 ```
 
 #### 🎲 Rodando o Backend (servidor)
 
 ```bash
+# Acesse o diretório
+$ cd api
 
 # Instale as dependências
 $ yarn
@@ -87,6 +106,7 @@ $ yarn dev:server
 
 # O servidor inciará na porta:3001
 
+# O template do email estar na pasta src/email
 
 ```
 
@@ -94,7 +114,7 @@ $ yarn dev:server
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### [](https://github.com/JonasCastro/fullstack-challenge-cotabox#server-nodejs--typescript)**Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
+**Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
 
 -   **[Express](https://expressjs.com/)**
 -   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
@@ -105,26 +125,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[TypeScript](https://github.com/microsoft/tsyringe)**
 
 
-> Veja o arquivo  [package.json](https://github.com/JonasCastro/dependency-injection-tsyringe/blob/master/package.json)
-
-#### [](https://github.com/jonascastro/dependency-injection-tsyringe#utilit%C3%A1rios)**Utilitários**
-
-
--   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  → Extensions:  **[ESlintJS](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)**, **[EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)**
--   Markdown:  **[StackEdit](https://stackedit.io/)**,  **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
--   README Template:  **[README-ecoleta](https://github.com/tgmarinho/README-ecoleta/blob/master/README.md)**
--   Teste de API:  **[Insomnia](https://insomnia.rest/)**
--   Ícones:  **[Feather Icons](https://feathericons.com/)**
-
-
----
 
 
 ## Autor
 
-Paulo Vaz
-
-[![Linkedin Badge](https://img.shields.io/badge/-Jonas-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jonas-castro-b4044111a/)](https://www.linkedin.com/in/paulovaz-dev/)
+* **Paulo Vaz** - [LinkedIn](https://www.linkedin.com/in/paulo-vaz-05296a46/)
 
 ---
 
