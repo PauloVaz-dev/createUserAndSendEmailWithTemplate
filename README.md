@@ -6,7 +6,7 @@
 </h1>
 
 <h4 align="center">
-	🚧  Dependency Injection -
+	🚧 Envio de email com Dependency Injection -
     <a href="https://github.com/microsoft/tsyringe">
       tsyringe
     </a>
