@@ -1,0 +1,21 @@
+{
+  "type": "postgres",
+  "host": "127.0.0.1",
+  "port": 5432,
+  "username": "postgres",
+  "password": "docker",
+  "database": "docker",
+  "entities": [
+    "./src/models/*.ts"
+  ],
+  "synchronize" : true,
+  "logging": true,
+
+  "migrations": [
+    "./src/database/migrations/*.ts"
+  ],
+
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
