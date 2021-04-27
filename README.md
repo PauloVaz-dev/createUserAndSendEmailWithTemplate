@@ -1,5 +1,5 @@
 <h1 align="center">
-  Dependency Injection -
+  Envio de email com Dependency Injection -
     <a href="https://github.com/microsoft/tsyringe">
     tsyringe
   </a>
@@ -10,7 +10,7 @@
     <a href="https://github.com/microsoft/tsyringe">
       tsyringe
     </a>
-    📊 Concluído ✅ 🚧
+    📊 Em construção  🚧
 </h4>
 
 <p align="center">
@@ -39,6 +39,7 @@ O projeto destina-se ao envio de email e salvando os dados no banco, contudo fiz
 - [x] Cadastro de usuário
   - [x] Envio de email com um template
 - [x] Listagem de todos os usuários
+- [ ] Testes
 
 
 ---
