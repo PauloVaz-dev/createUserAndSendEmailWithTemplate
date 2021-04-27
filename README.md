@@ -78,7 +78,7 @@ EMAIL_PASSWORD=password
 
 ```bash
 # Acesse o diretório
-$ cd fronteand
+$ cd frontend
 
 # Instale as dependências
 $ yarn
